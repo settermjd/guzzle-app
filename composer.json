@@ -1,0 +1,24 @@
+{
+    "name": "maltblue/phparch-guzzle-app",
+    "description": "Package using Guzzle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthew Setter",
+            "email": "matthew@maltblue.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzle/guzzle": "~3.4.3",
+        "zendframework/zend-log": "2.3.*@dev",
+        "zendframework/zend-stdlib": "2.3.*@dev",
+        "zendframework/zend-servicemanager": "2.3.*@dev",
+        "doctrine/cache": "1.0.*@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "GuzzleApp": "src/"
+        }
+    }
+}

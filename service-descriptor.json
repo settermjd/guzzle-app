@@ -1,0 +1,14 @@
+{
+    "name": "Foo",
+    "apiVersion": "2012-10-14",
+    "baseUrl": "http://api.foo.com",
+    "description": "Foo is an API that allows you to Baz Bar",
+    "operations": {
+        "GetUsers": {
+            "httpMethod": "GET",
+            "uri": "/users",
+            "summary": "Gets a list of users",
+            "responseClass": "GetUsersOutput"
+        }
+    }
+}
